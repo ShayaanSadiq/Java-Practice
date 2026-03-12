@@ -5,7 +5,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\shaya\\Documents\\coding practice\\Writing to files\\test.txt";
+        // Enter file path
+        String filePath = "test.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
